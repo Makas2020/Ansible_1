@@ -7,9 +7,9 @@
        apt: name=apache2 update_cache=yes state=latest
     
     - name: configure website
-    become: true
-    copy: src=index.html dest=/var/www/html
+      become: true
+      copy: src=index.html dest=/var/www/html
 
    - name: start Apache2 service
-    service: name=apache2 state=started
+     service: name=apache2 state=started
 
