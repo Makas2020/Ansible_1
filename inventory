@@ -1,2 +1,2 @@
 [website]
-172.31.10.39 ansible_user=ec2-54-153-15-80.us-west-1.compute.amazonaws.com
+172.31.10.39 ansible_user=ec2-user
